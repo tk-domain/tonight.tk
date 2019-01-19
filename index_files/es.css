@@ -1,0 +1,78 @@
+/*
+Theme Name: EarthSky
+Author: EarthSky
+*/
+
+/* TODAY'S EARTHSKY PODCAST */
+.projekktor-tep {top:0;left:0;padding:0;display:block;position: relative;overflow: hidden;font-size:0px;}
+.tep-controls {position: relative;top: 0;left:0;display: block;overflow: hidden;width: 100%;height: 16px;padding: 0;margin:0px 5px 0px 5px;}
+.tep-controls .active {display: block;}
+.tep-controls .inactive {display: none;}
+.projekktor-tep.notransitions .tep-controls.active {display: block;}
+.projekktor-tep.notransitions .tep-controls.inactive {display: block;}
+.tep-controls ul {list-style-type: none;}
+.tep-controls ul.left {position: relative;top: 0;left: 0;padding: 0;margin:0;} 
+.tep-controls ul.right {position: relative;top: 0;right: 0;padding: 0;margin:0;}
+.tep-controls ul.bottom {position: relative;top: 31px;left: 0;padding: 0;margin:0;}
+.tep-controls ul.left li {float: left;position: relative;}
+.tep-controls ul.right li {float: right;position: relative;}
+.tep-play,.tep-pause {background: url("tep_play.png") no-repeat;width: 8px;height: 16px;cursor: pointer;float: left;}
+.tep-play:hover {background: url("tep_play.png") no-repeat;}
+.tep-play:active {background: url("tep_play.png") no-repeat;}
+.tep-pause {background: url("tep_pause.png") no-repeat;}
+.tep-pause:hover {background: url("tep_pause.png") no-repeat;}
+.tep-pause:active {background: url("tep_pause.png") no-repeat;}
+.tep-mute,.tep-unmute {background: url("tep_mute.png") no-repeat;width: 10px;height: 16px;cursor: pointer;margin-right:10px;}
+.tep-mute:hover {background: url("tep_mute.png") no-repeat;}
+.tep-mute:active {background: url("tep_mute.png") no-repeat;}
+.tep-unmute {background: url("tep_unmute.png") no-repeat;}
+.tep-unmute:hover {background: url("tep_unmute.png") no-repeat;}
+.tep-unmute:active {background: url("tep_unmute.png") no-repeat;}
+.tep-vmax {width: 30px;height: 30px;border-right: 1px solid #000;border-left:none;background: url("maccaco.png") no-repeat -842px top transparent;}
+.tep-vmax:hover  {background: url("maccaco.png") no-repeat -842px -35px transparent;}
+.tep-vmax:active  {background: url("maccaco.png") no-repeat -842px -36px transparent;}
+.tep-scrubber {height: 16px;width: 152px;background: url("tep_scrubber.png") repeat-x;margin-left: 12px;position:absolute;}
+.tep-scrubber-end {margin-left: 164px;background: url("tep_scrubber_end.png") no-repeat;z-index:550;width:1px;height:16px;position: absolute;}
+.tep-scrubberdrag {cursor: pointer;z-index: 650;position: absolute;background-color: transparent;top:0;left:0;height: 16px;width: 100%;}
+.tep-playhead, .tep-loaded {}
+.tep-playhead {background: url("tep_playhead.png") no-repeat center right;position:absolute;width: 2px;height: 16px;z-index: 600;}
+.tep-loaded {height: 16px;width: 152px;background: url("tep_loaded.png") repeat-x;margin-left: 1px;position:absolute;z-index: 500;}
+.tep-timeleft {left:170px;font-family: "Lucida Grand", sans-serif;font-size:10px;color: #bfbfbf;width: 25px;line-height: 16px;position:absolute;z-index: 1100;}
+
+
+/* SINGLE POST MEDIA */
+.projekktor-spm {top:0;left:106px;padding:0;display:block;position: relative;overflow: hidden;font-size:0px;width:403px;height:30px;}
+.spm-controls {position: relative;top: 0;left:0;display: block;overflow: hidden;width: 100%;height: 30px;padding: 0;}
+.spm-controls .active {display: block;}
+.spm-controls .inactive {display: none;}
+.projekktor-spm.notransitions .spm-controls.active {display: block;}
+.projekktor-spm.notransitions .spm-controls.inactive {display: block;}
+.spm-controls ul {list-style-type: none;}
+.spm-controls ul.left {position: relative;top: 0;left: 0;padding: 0;margin:0;} 
+.spm-controls ul.right {position: relative;top: 0;right: 0;padding: 0;margin:0;}
+.spm-controls ul.bottom {position: relative;top: 31px;left: 0;padding: 0;margin:0;}
+.spm-controls ul.left li {float: left;position: relative;}
+.spm-controls ul.right li {float: right;position: relative;}
+.spm-play,.spm-pause {background: url("spm_play.png") no-repeat;width:10px;height:30px;cursor: pointer;float: left;}
+.spm-play:hover {background: url("spm_play.png") no-repeat;}
+.spm-play:active {background: url("spm_play.png") no-repeat;}
+.spm-pause {background: url("spm_pause.png") no-repeat;}
+.spm-pause:hover {background: url("spm_pause.png") no-repeat;}
+.spm-pause:active {background: url("spm_pause.png") no-repeat;}
+.spm-mute,.spm-unmute {background: url("spm_mute.png") no-repeat;width: 10px;height: 16px;cursor: pointer;margin-right:10px;}
+.spm-mute:hover {background: url("spm_mute.png") no-repeat;}
+.spm-mute:active {background: url("spm_mute.png") no-repeat;}
+.spm-unmute {background: url("spm_unmute.png") no-repeat;}
+.spm-unmute:hover {background: url("spm_unmute.png") no-repeat;}
+.spm-unmute:active {background: url("spm_unmute.png") no-repeat;}
+.spm-vmax {width: 30px;height: 30px;border-right: 1px solid #000;border-left:none;background: url("maccaco.png") no-repeat -842px top transparent;}
+.spm-vmax:hover  {background: url("maccaco.png") no-repeat -842px -35px transparent;}
+.spm-vmax:active  {background: url("maccaco.png") no-repeat -842px -36px transparent;}
+.spm-scrubber {height: 30px;width: 343px;background: url("spm_scrubber.png") repeat-x;left:20px;position:relative;}
+.spm-scrubber-end {background: url("spm_scrubber.png") no-repeat;z-index:550;width:1px;height:30px;position: absolute;right:39px;top:0;}
+.spm-scrubberdrag {cursor: pointer;z-index: 650;position: absolute;background-color: transparent;top:0;left:0;height: 30px;width: 100%;}
+.spm-playhead, .spm-loaded {}
+.spm-playhead {background: url("spm_playhead.png") no-repeat right;position:absolute;padding-left:4px;top:0;height: 30px;z-index: 600;}
+.spm-loaded {height: 30px;width: 100%;background: url("spm_loaded.png") repeat-x;margin-left: 1px;position:relative;z-index: 500;}
+.spm-timeleft {top:0;right:0;font-family: sans-serif;font-size:12px;color: #b3b3b3;line-height: 30px;position:absolute;z-index: 1100;}
+
